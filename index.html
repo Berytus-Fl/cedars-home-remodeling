@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Free Roofing Estimate | Cedar's Home Remodeling</title>
+
+    <meta name="description"
+        content="Get a fast, free roofing estimate through Cedar's Home Remodeling and licensed roofing partner our licensed roofing partner in Orlando and Central Florida." />
+
+    
+    
+
+    <style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#222;background:#fff}a{text-decoration:none}.top-bar{position:fixed;top:0;left:0;right:0;height:76px;background:rgba(0,0,0,.96);display:flex;align-items:center;justify-content:space-between;padding:0 5%;z-index:1000}.logo-text{color:#fff;font-weight:700;font-size:1.05rem}.top-bar nav{display:flex;gap:22px}.top-bar nav a{color:#fff;font-weight:600}.top-bar nav a:hover{color:#f5c400}.page-hero{position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:#fff;padding:40px;overflow:hidden}.page-hero h1,.page-hero p{position:relative;margin:0}.page-hero p{margin-top:14px}.hero-divider{width:70px;height:4px;background:#f5c400}.section{padding:70px 5%;text-align:center}.section-title{font-size:2rem;margin-top:0}.product-grid{max-width:1100px;margin:auto;display:grid}.product-card{text-decoration:none}.service-list{list-style:none;padding:0}.service-list li{margin:13px 0}.service-list li:before{content:'✓';color:#f5c400;font-weight:700;margin-right:10px}.cta{text-align:center;padding:62px 20px;background:#123d73;color:#fff}.cta h2{margin-top:0}.btn{display:inline-block;padding:14px 25px;border-radius:30px;font-weight:700}.btn.light{background:#fff;color:#123d73}footer{text-align:center;padding:25px;background:#090909;color:#aaa}@media(max-width:760px){.top-bar{padding:0 18px}.top-bar nav a:not(:last-child){display:none}.logo-text{font-size:.9rem}.page-hero{padding-left:20px;padding-right:20px}}
+
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,sans-serif;color:#222}a{text-decoration:none}.top-bar{position:fixed;top:0;left:0;right:0;height:76px;background:rgba(0,0,0,.94);display:flex;align-items:center;justify-content:space-between;padding:0 5%;z-index:1000}.logo-text{color:#fff;font-weight:700}.top-bar nav{display:flex;gap:20px}.top-bar nav a{color:#fff}.page-hero{position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:#fff;padding:40px}.section{padding:70px 5%;text-align:center}.section-title{font-size:2rem}.product-grid{max-width:1100px;margin:auto;display:grid}.service-list{list-style:none;padding:0}.service-list li{margin:12px}.cta{text-align:center;padding:60px 20px;background:#123d73;color:#fff}.btn{display:inline-block;padding:14px 24px;border-radius:30px}.btn.light{background:#fff;color:#123d73}footer{text-align:center;padding:25px;background:#0b0b0b;color:#aaa}@media(max-width:760px){.top-bar nav{display:none}}
+        /* Roofing page overrides — scoped so they do not affect the rest of the site */
+        body[data-page="roofing"] .roof-hero {
+            height: 460px;
+            min-height: 0;
+            background:
+                radial-gradient(circle at 75% 25%, rgba(245,196,0,.14), transparent 28%),
+                linear-gradient(135deg, #090909 0%, #171717 58%, #24211a 100%);
+            padding-top: 76px;
+        }
+        body[data-page="roofing"] .roof-hero::before {
+            content: "";
+            position: absolute;
+            left: -8%; right: -8%; bottom: -115px;
+            height: 240px;
+            background: #0d0d0d;
+            transform: skewY(-5deg);
+            opacity: .9;
+        }
+        body[data-page="roofing"] .roof-hero h1,
+        body[data-page="roofing"] .roof-hero p,
+        body[data-page="roofing"] .roof-hero .hero-divider { z-index: 2; }
+        body[data-page="roofing"] .roof-hero h1 { font-size: clamp(42px,6vw,68px); }
+        body[data-page="roofing"] .roof-hero .hero-divider { margin: 22px auto 0; }
+        body[data-page="roofing"] .estimate-hero-btn {
+            position: relative; z-index: 2; display:inline-flex; align-items:center; gap:10px;
+            margin:28px auto 0; padding:14px 28px; border-radius:999px; background:#f5c400;
+            color:#111; font-weight:700; text-decoration:none; box-shadow:0 12px 28px rgba(0,0,0,.3);
+        }
+        body[data-page="roofing"] .estimate-hero-btn:hover { background:#ffd85a; transform:translateY(-2px); }
+
+        body[data-page="roofing"] .roof-intro {
+            background: #f7f4ed;
+            padding: 78px 40px 82px;
+        }
+        body[data-page="roofing"] .roof-intro .section-title {
+            color: #123d73;
+            margin-bottom: 18px;
+        }
+        body[data-page="roofing"] .roof-intro .roof-copy {
+            max-width: 850px;
+            margin: 0 auto;
+            color: #4d4d4d;
+            line-height: 1.85;
+            font-size: 1.04rem;
+        }
+
+        body[data-page="roofing"] .estimate-band {
+            background:#fff; padding:56px 40px; text-align:center;
+        }
+        body[data-page="roofing"] .estimate-box {
+            max-width:980px; margin:0 auto; display:grid; grid-template-columns:90px 1fr auto;
+            gap:28px; align-items:center; text-align:left; padding:30px 34px; border-radius:18px;
+            border:1px solid #e5dfd1; box-shadow:0 12px 32px rgba(0,0,0,.08);
+        }
+        body[data-page="roofing"] .estimate-icon {
+            width:76px; height:76px; border-radius:50%; background:#f5c400; display:grid; place-items:center;
+            font-size:34px; box-shadow:0 8px 20px rgba(245,196,0,.25);
+        }
+        body[data-page="roofing"] .estimate-box h2 { color:#123d73; margin:0 0 5px; font-size:1.65rem; }
+        body[data-page="roofing"] .estimate-box p { color:#555; margin:0; }
+        body[data-page="roofing"] .estimate-box .btn { white-space:nowrap; }
+        body[data-page="roofing"] .estimate-actions { display:flex; flex-direction:column; gap:10px; min-width:220px; }
+        body[data-page="roofing"] .estimate-actions .call-btn { display:inline-block; text-align:center; padding:12px 22px; border:1px solid #123d73; border-radius:30px; color:#123d73; font-weight:700; background:#fff; }
+        body[data-page="roofing"] .estimate-actions .call-btn:hover { background:#123d73; color:#fff; }
+        body[data-page="roofing"] .estimate-phone { display:block; margin-top:8px; font-size:.9rem; color:#777; text-align:center; }
+
+        body[data-page="roofing"] .roof-services {
+            background: #111;
+            padding-top: 82px;
+            padding-bottom: 88px;
+        }
+        body[data-page="roofing"] .roof-services .section-title { margin-bottom: 44px; }
+        body[data-page="roofing"] .roof-services .product-grid {
+            grid-template-columns: repeat(4,1fr);
+            gap: 22px;
+        }
+        body[data-page="roofing"] .roof-service-card {
+            min-height: 210px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 18px;
+            padding: 32px 22px;
+            border: 1px solid rgba(255,255,255,.1);
+            border-radius: 14px;
+            background: linear-gradient(145deg,#1b1b1b,#141414);
+            transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+        }
+        body[data-page="roofing"] .roof-service-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(245,196,0,.55);
+            box-shadow: 0 16px 35px rgba(0,0,0,.3);
+        }
+        body[data-page="roofing"] .roof-service-card .roof-card-icon {
+            width: 58px; height: 58px; border-radius: 50%;
+            display: grid; place-items: center;
+            background: #f5c400; color: #111; font-size: 26px;
+        }
+        body[data-page="roofing"] .roof-service-card h3 {
+            color: #fff; margin: 0; font-size: 1.08rem;
+        }
+
+        body[data-page="roofing"] .roof-detail-section {
+            background: #f7f4ed;
+            padding: 34px 40px;
+        }
+        body[data-page="roofing"] .roof-detail-section.alt-light { background: #ebe5d9; }
+        body[data-page="roofing"] .roof-detail {
+            max-width: 1040px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 70px 1fr;
+            gap: 26px;
+            align-items: center;
+            padding: 34px 38px;
+            background: #fff;
+            border-radius: 16px;
+            border: 1px solid rgba(0,0,0,.07);
+            box-shadow: 0 10px 28px rgba(0,0,0,.07);
+            text-align: left;
+        }
+        body[data-page="roofing"] .roof-detail .roof-icon {
+            width: 62px; height: 62px; display:grid; place-items:center;
+            border-radius:50%; background:#f5c400; font-size:27px;
+        }
+        body[data-page="roofing"] .roof-detail h2 {
+            color: #123d73; margin: 0 0 8px; font-size: 1.55rem;
+        }
+        body[data-page="roofing"] .roof-detail p {
+            color: #4a4a4a; margin:0; line-height:1.72;
+        }
+
+        body[data-page="roofing"] .roof-why {
+            background: linear-gradient(135deg,#101010,#211f1a);
+            padding: 82px 40px;
+        }
+        body[data-page="roofing"] .roof-why .section-title { color:#fff; }
+        body[data-page="roofing"] .roof-why .service-list {
+            max-width: 860px; margin: 0 auto;
+            background: rgba(255,255,255,.045);
+            border: 1px solid rgba(255,255,255,.1);
+            border-radius: 16px; padding: 28px 36px;
+        }
+        body[data-page="roofing"] .roof-why .service-list li { color:#e3e3e3; }
+        body[data-page="roofing"] .roof-note {
+            max-width: 860px; margin: 24px auto 0; padding: 16px 20px;
+            color:#d7d7d7; background:rgba(245,196,0,.08);
+            border-left:3px solid #f5c400; text-align:left; border-radius:6px;
+        }
+        body[data-page="roofing"] .roof-note strong { color:#f5c400; }
+
+        @media (max-width: 950px) {
+            body[data-page="roofing"] .roof-services .product-grid { grid-template-columns: repeat(2,1fr); }
+        }
+        @media (max-width: 640px) {
+            body[data-page="roofing"] .roof-hero { height: 390px; }
+            body[data-page="roofing"] .roof-services .product-grid { grid-template-columns: 1fr; }
+            body[data-page="roofing"] .roof-detail { grid-template-columns:1fr; text-align:center; padding:28px 22px; }
+            body[data-page="roofing"] .estimate-box { grid-template-columns:1fr; text-align:center; padding:28px 22px; }
+            body[data-page="roofing"] .estimate-icon { margin:0 auto; }
+            body[data-page="roofing"] .estimate-actions { width:100%; }
+            body[data-page="roofing"] .estimate-actions a { width:100%; }
+            body[data-page="roofing"] .roof-detail .roof-icon { margin:0 auto; }
+            body[data-page="roofing"] .roof-intro,
+            body[data-page="roofing"] .roof-detail-section,
+            body[data-page="roofing"] .roof-why { padding-left:22px; padding-right:22px; }
+        }
+
+        /* Desktop-friendly free estimate form */
+        body[data-page="roofing"] .estimate-form-wrap { max-width: 860px; margin: 0 auto; }
+        body[data-page="roofing"] .estimate-form { background:#fff; border:1px solid #e5dfd1; border-radius:18px; padding:34px; box-shadow:0 12px 32px rgba(0,0,0,.08); text-align:left; }
+        body[data-page="roofing"] .estimate-form h2 { color:#123d73; text-align:center; margin-bottom:8px; }
+        body[data-page="roofing"] .estimate-form > p { color:#555; text-align:center; margin-bottom:26px; }
+        body[data-page="roofing"] .form-grid { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+        body[data-page="roofing"] .estimate-form label { display:block; color:#333; font-weight:600; margin-bottom:6px; }
+        body[data-page="roofing"] .estimate-form input, body[data-page="roofing"] .estimate-form select, body[data-page="roofing"] .estimate-form textarea { width:100%; padding:13px 14px; border:1px solid #ccc; border-radius:9px; font:inherit; background:#fff; color:#222; }
+        body[data-page="roofing"] .estimate-form textarea { min-height:110px; resize:vertical; }
+        body[data-page="roofing"] .form-full { grid-column:1 / -1; }
+        body[data-page="roofing"] .estimate-submit { border:0; cursor:pointer; display:block; margin:24px auto 0; padding:14px 32px; border-radius:999px; background:#f5c400; color:#111; font-weight:700; font-size:1rem; }
+        body[data-page="roofing"] .estimate-submit:hover { background:#ffd85a; }
+        body[data-page="roofing"] .mobile-text-option { text-align:center; margin-top:18px; color:#555; }
+        body[data-page="roofing"] .mobile-text-option a { color:#123d73; font-weight:700; }
+        body[data-page="roofing"] #estimate-success { display:none; margin-top:18px; padding:14px; background:#eef7e8; color:#275b22; border-radius:9px; text-align:center; }
+        body[data-page="roofing"] .field-error { color:#b42318; font-size:.82rem; margin-top:6px; min-height:1.1em; }
+        body[data-page="roofing"] .input-invalid { border-color:#b42318 !important; box-shadow:0 0 0 2px rgba(180,35,24,.08); }
+        body[data-page="roofing"] .estimate-email-btn { display:inline-block; margin-top:10px; padding:10px 18px; border-radius:999px; background:#123d73; color:#fff !important; font-weight:700; }
+        @media (max-width:700px) { body[data-page="roofing"] .form-grid { grid-template-columns:1fr; } body[data-page="roofing"] .form-full { grid-column:auto; } }
+    </style>
+</head>
+
+<body data-page="roofing" id="top">
+
+    <!-- ================= NAV ================= -->
+    <header class="top-bar">
+        <a href="#top" class="logo"><span class="logo-text">Cedar's Home Remodeling</span></a>
+        <nav>
+            <a href="#free-estimate">Free Estimate</a>
+            <a href="#services">Roofing Services</a>
+            <a href="tel:+14072189058">Call</a>
+        </nav>
+    </header>
+
+    <!-- ================= PAGE HERO ================= -->
+    <section class="page-hero roof-hero">
+        <h1>Get a Free Roofing Estimate — Fast</h1>
+        <p>Cedar’s Home Remodeling • Fast Estimate Scheduling • Orlando & Central Florida</p>
+        <div class="hero-divider"></div>
+        <a href="#free-estimate" class="estimate-hero-btn"><span>🧾</span> Get My Free Estimate</a>
+    </section>
+
+    <!-- ================= INTRO ================= -->
+    <section class="section roof-intro">
+        <h2 class="section-title">Know Your Roofing Cost Before You Commit</h2>
+        <p class="roof-copy">
+            Cedar’s Home Remodeling makes it easier for Orlando and Central Florida homeowners to request a fast, free roofing estimate. Tell us what you need, and we’ll connect your request with a licensed roofing partner for estimate scheduling and roofing service.
+        </p>
+    </section>
+
+    <!-- ================= FREE ESTIMATE ================= -->
+    <section class="estimate-band" id="free-estimate">
+        <div class="estimate-form-wrap">
+            <form class="estimate-form" id="roof-estimate-form" onsubmit="submitRoofEstimate(event)">
+                <h2>Get Your Free Roofing Estimate</h2>
+                <p>Tell us a little about the property and roofing need. Submit the form below and we’ll send your request for estimate scheduling.</p>
+                <div class="form-grid">
+                    <div><label for="est-name">Name</label><input id="est-name" name="name" type="text" required></div>
+                    <div><label for="est-phone">Phone</label><input id="est-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="(407) 555-1234" required><div class="field-error" id="phone-error"></div></div>
+                    <div><label for="est-email">Email</label><input id="est-email" name="email" type="email" autocomplete="email" placeholder="name@example.com" required><div class="field-error" id="email-error"></div></div>
+                    <div class="form-full"><label for="est-address">Job / Estimate Address</label><input id="est-address" name="address" type="text" autocomplete="street-address" placeholder="123 Main St" required></div>
+                    <div><label for="est-city">City</label><input id="est-city" name="city" type="text" autocomplete="address-level2" placeholder="Orlando" required></div>
+                    <div><label for="est-zip">Property ZIP Code</label><input id="est-zip" name="zip" inputmode="numeric" autocomplete="postal-code" maxlength="10" required></div>
+                    <div class="form-full"><label for="est-service">What do you need?</label><select id="est-service" name="service" required><option value="">Choose one</option><option>Roof repair</option><option>Roof replacement</option><option>Storm / emergency damage</option><option>Metal, tile or flat roofing</option><option>Not sure — need an estimate</option></select></div>
+                    <div class="form-full"><label for="est-details">Tell us about the roof</label><textarea id="est-details" name="details" placeholder="Leak, age of roof, storm damage, replacement quote, etc."></textarea></div>
+                </div>
+                <button type="submit" class="estimate-submit">Request My Free Estimate</button>
+                <div id="estimate-success"></div>
+                <div class="mobile-text-option">
+                    <strong>Prefer direct contact?</strong><br>
+                    📱 <strong>Text:</strong> <a href="sms:+14072189058?body=Hi%2C%20I%27d%20like%20a%20free%20roofing%20estimate.">407-218-9058</a><br>
+                    📞 <strong>Call:</strong> <a href="tel:+14072189058">407-218-9058</a><br>
+                    ✉️ <strong>Email:</strong> <a href="mailto:BerytusFl@gmail.com?subject=Free%20Roofing%20Estimate%20Request">BerytusFl@gmail.com</a><br>
+                    <span style="font-size:.82rem;color:#777;"></span>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ================= FEATURES (CLICKABLE) ================= -->
+    <section class="section roof-services" id="services">
+        <h2 class="section-title">What Can We Help You Estimate?</h2>
+        <div class="product-grid">
+            <a href="#repairs" class="product-card roof-service-card">
+                <span class="roof-card-icon">🔨</span>
+                <h3>Roof Repair & Maintenance</h3>
+            </a>
+            <a href="#inspection" class="product-card roof-service-card">
+                <span class="roof-card-icon">🔎</span>
+                <h3>Roof Replacement</h3>
+            </a>
+            <a href="#exterior" class="product-card roof-service-card">
+                <span class="roof-card-icon">🏠</span>
+                <h3>Metal, Tile & Flat Roofing</h3>
+            </a>
+            <a href="#projects" class="product-card roof-service-card">
+                <span class="roof-card-icon">📋</span>
+                <h3>Storm & Emergency Repairs</h3>
+            </a>
+        </div>
+    </section>
+
+    <!-- ================= SERVICE DETAILS ================= -->
+    <section id="repairs" class="section roof-detail-section">
+        <div class="roof-detail">
+            <div class="roof-icon">🔨</div>
+            <div>
+                <h2>Roof Repair & Maintenance</h2>
+                <p>From visible wear and storm-related concerns to ongoing maintenance needs, we help identify the right next step and coordinate qualified roofing work when a licensed roofing contractor is required.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="inspection" class="section roof-detail-section alt-light">
+        <div class="roof-detail">
+            <div class="roof-icon">🔎</div>
+            <div>
+                <h2>Roof Replacement</h2>
+                <p>Request an estimate for roof replacement and learn what the project may cost before moving forward.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="exterior" class="section roof-detail-section">
+        <div class="roof-detail">
+            <div class="roof-icon">🏠</div>
+            <div>
+                <h2>Metal, Tile & Flat Roofing</h2>
+                <p>Get an estimate for common Florida roofing systems, including metal, tile, and flat roofing projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section roof-detail-section alt-light">
+        <div class="roof-detail">
+            <div class="roof-icon">📋</div>
+            <div>
+                <h2>Storm & Emergency Repairs</h2>
+                <p>If storms or sudden roof damage have you looking for answers quickly, submit your request for fast estimate scheduling with our licensed roofing partner.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= WHY US ================= -->
+    <section class="section roof-why">
+        <h2 class="section-title">A Faster Way to Start Your Roofing Project</h2>
+        <ul class="service-list" style="max-width:900px;margin:0 auto;">
+            <li>Free roofing estimate request</li>
+            <li>Fast estimate scheduling</li>
+            <li>Simple contact through Cedar’s partnership page</li>
+            <li>Licensed roofing service provided by our licensed roofing partner</li>
+            <li>Serving Orlando and Central Florida</li>
+        </ul>
+        <div class="roof-note">
+            <strong>Roofing services:</strong> Roofing estimates and licensed roofing services promoted on this page are provided through a licensed roofing partner. Cedar’s Home Remodeling is the advertising/referral partner.
+        </div>
+    </section>
+
+    <!-- ================= CTA ================= -->
+    <section class="cta roof-cta">
+        <h2>Need a Roofing Price? Start With a Free Estimate</h2>
+        <a href="#free-estimate" class="btn light">🧾 Request My Free Roofing Estimate</a>
+    </section>
+
+    <footer>
+        © 2026 Cedar’s Home Remodeling • Orlando, Florida
+    </footer>
+
+    <script>
+        // Paste the Google Apps Script Web App URL here after deployment.
+        const LEAD_ENDPOINT = "https://script.google.com/macros/s/AKfycbzRsQ1zqpfRbXwHi09eeWGmJOHfFwEd7ZUmLTGtl5qXqNUkABOwF-jnq3Jei_u5Lr2n/exec";
+
+        async function submitRoofEstimate(event) {
+            event.preventDefault();
+
+            const form = event.target;
+            const phoneInput = document.getElementById("est-phone");
+            const emailInput = document.getElementById("est-email");
+            const phoneError = document.getElementById("phone-error");
+            const emailError = document.getElementById("email-error");
+            const success = document.getElementById("estimate-success");
+            const submitButton = form.querySelector("button[type=submit]");
+
+            phoneError.textContent = "";
+            emailError.textContent = "";
+            phoneInput.classList.remove("input-invalid");
+            emailInput.classList.remove("input-invalid");
+            success.style.display = "none";
+
+            const phoneDigits = phoneInput.value.replace(/\D/g, "");
+            const validPhone = phoneDigits.length === 10 || (phoneDigits.length === 11 && phoneDigits.startsWith("1"));
+            const validEmail = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(emailInput.value.trim());
+
+            let firstInvalid = null;
+            if (!validPhone) {
+                phoneError.textContent = "Enter a valid 10-digit phone number.";
+                phoneInput.classList.add("input-invalid");
+                firstInvalid = phoneInput;
+            }
+            if (!validEmail) {
+                emailError.textContent = "Enter a valid email address, such as name@example.com.";
+                emailInput.classList.add("input-invalid");
+                if (!firstInvalid) firstInvalid = emailInput;
+            }
+            if (firstInvalid) {
+                firstInvalid.focus();
+                return;
+            }
+            if (!form.reportValidity()) return;
+
+            if (!LEAD_ENDPOINT) {
+                success.innerHTML = '<strong>Form is ready, but lead delivery is not connected yet.</strong><br>We will connect the Google lead receiver before publishing.';
+                success.style.display = "block";
+                success.scrollIntoView({behavior:"smooth", block:"nearest"});
+                return;
+            }
+
+            const data = new FormData(form);
+            const payload = {
+                name: data.get("name") || "",
+                phone: data.get("phone") || "",
+                email: data.get("email") || "",
+                address: data.get("address") || "",
+                city: data.get("city") || "",
+                zip: data.get("zip") || "",
+                roofingNeed: data.get("service") || "",
+                details: data.get("details") || "",
+                source: "Cedar's Home Remodeling roofing landing page"
+            };
+
+            const originalText = submitButton.textContent;
+            submitButton.disabled = true;
+            submitButton.textContent = "Sending…";
+
+            try {
+                await fetch(LEAD_ENDPOINT, {
+                    method: "POST",
+                    mode: "no-cors",
+                    headers: {"Content-Type": "text/plain;charset=utf-8"},
+                    body: JSON.stringify(payload)
+                });
+
+                success.innerHTML = '<strong>Thank you! Your free roofing estimate request has been sent.</strong><br>We’ll contact you shortly. For urgent needs, call or text <a href="tel:+14072189058">407-218-9058</a>.';
+                success.style.display = "block";
+                form.reset();
+                success.scrollIntoView({behavior:"smooth", block:"nearest"});
+            } catch (error) {
+                success.innerHTML = '<strong>We could not send the form.</strong><br>Please call or text <a href="tel:+14072189058">407-218-9058</a>, or email <a href="mailto:BerytusFl@gmail.com">BerytusFl@gmail.com</a>.';
+                success.style.display = "block";
+                success.scrollIntoView({behavior:"smooth", block:"nearest"});
+            } finally {
+                submitButton.disabled = false;
+                submitButton.textContent = originalText;
+            }
+        }
+    </script>
+</body>
+
+</html>
